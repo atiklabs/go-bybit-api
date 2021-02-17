@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/chuckpreslar/emission"
-	"github.com/frankrap/bybit-api/recws"
+	"github.com/atik-lab/go-bybit-api/recws"
 	"github.com/gorilla/websocket"
 	"github.com/tidwall/gjson"
 	"log"
