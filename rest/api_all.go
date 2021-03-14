@@ -106,7 +106,7 @@ func (b *ByBit) WalletRecords(symbol string, page int, limit int) (query string,
 	if limit > 0 {
 		params["limit"] = limit
 	}
-	query, resp, err = b.SignedRequest(http.MethodGet, "open-api/wallet/fund/records", params, &r)
+	query, resp, err = b.SignedRequest(http.MethodGet, "/v2/private/wallet/fund/records", params, &r)
 	if err != nil {
 		return
 	}
