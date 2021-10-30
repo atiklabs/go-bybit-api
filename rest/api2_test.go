@@ -1,7 +1,7 @@
 package rest_test
 
 import (
-	"github.com/atik-lab/go-bybit-api/rest"
+	"github.com/atiklabs/go-bybit-api/rest"
 	"testing"
 )
 

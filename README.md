@@ -10,7 +10,7 @@ Go library for using the ByBit's Rest &amp; Websocket API
 package main
 
 import (
-	"github.com/atik-lab/go-bybit-api/rest"
+	"github.com/atiklabs/go-bybit-api/rest"
 	"log"
 )
 
@@ -52,7 +52,7 @@ func main() {
 package main
 
 import (
-	"github.com/atik-lab/go-bybit-api/ws"
+	"github.com/atiklabs/go-bybit-api/ws"
 	"log"
 )
 

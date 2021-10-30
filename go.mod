@@ -1,4 +1,4 @@
-module github.com/atik-lab/go-bybit-api
+module github.com/atiklabs/go-bybit-api
 
 go 1.13
 

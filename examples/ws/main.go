@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/atik-lab/go-bybit-api/ws"
+	"github.com/atiklabs/go-bybit-api/ws"
 	"log"
 )
 
